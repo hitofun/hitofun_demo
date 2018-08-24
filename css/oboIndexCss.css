@@ -1,0 +1,156 @@
+        .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+            background-color:rgba(255, 255, 255, 0.8);
+            color:#000;
+        }
+        .nav>li>a:hover, .nav>li>a:focus {
+            text-decoration: none;
+            background-color:rgba(255, 255, 255, 0.8);
+            color:#fff;
+        }
+        .nav-tabs>li>a {
+            color:white;
+        }
+        tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+            color:#000;
+        }
+        .nav-tabs>li>a:hover {
+            border-color:rgba(255, 255, 255, 0.8) 
+        }
+        .navbar-inverse {
+            background-color:#fff;
+            border-color: #080808;
+        }
+        .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover,
+        .navbar-inverse.navbar-nav>.active>a:focus {
+            color: #fff;
+            background-color:#fff;
+        }
+        .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse 
+        .navbar-nav>.active>a:focus {
+            color:black;
+            background-color: #fff;
+        }
+        .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+            color:#00F;
+            background-color: transparent;
+        }
+        .navbar-inverse .navbar-nav>li>a {
+            color:#000;
+        }
+        /*navbar*/
+        .img-location{
+            position:absolute;
+            top:0px;
+            left:0px;
+            z-index:-1;
+        }
+            .index_Btn_Backgroup{
+            background-color: rgba(0,0,255,0.5);
+            border-color: rgba(0,0,255,0.5);        
+        }
+        .index_Button_Top{
+            position:relative;
+            text-align: center;
+            z-index:0;
+            top:auto;  
+            margin-top: 10px;
+        }
+        .index_Ul-Color{
+             background-color: rgba(0, 0, 0, 0.8); 
+            -webkit-border-top-left-radius: 5px;
+            -webkit-border-top-right-radius: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-topright: 5px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .index_Container{
+            position:relative; /*top:180px; 位置*/
+            font-size:150%;/*文字大小*/
+            color:black;/*文字顏色*/
+            z-index:0;
+            top: auto;
+            padding-top: 50px;
+        }
+        .tab-content{
+            padding-top:5px; 
+            padding-bottom:10px;
+            padding-right:10px;
+            padding-left:10px;
+            background-color: rgba(255,255,255,0.8);    
+        }
+        tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .index_Text_Left{
+            text-align:left;
+            font-weight:normal;
+            text-align:left;
+            font-size:16px;
+        }
+        .intro {
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+        .nav>li>a:hover, .nav>li>a:focus {
+            /* color: #000; navbar按住後的文字顏色*/
+        }
+        .navbar-custom .nav li a:hover {
+            /*color: rgba(182, 57, 57, 0.8);移動過去的文字顏色*/
+        }
+        .navbar-custom a {
+            /*color: #fff; 文字原本的顏色*/
+        }
+        .navbar-custom.top-nav-collapse {
+            /*background: #bd3535;navbar背景色*/
+        }
+        .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+                display:inline-block;
+        }
+        /*button 被點後狀態*/
+       
+        .comicsFontThemeP{
+            color: #28a7e1;
+            font-size:28px;
+            font-weight:bold;
+            margin-bottom:20px;
+        }
+        .comicsFontSateP{
+            color: #28a7e1;
+            font-size: 16px;
+        }
+        .descriptionComics{
+            text-align:center;
+            background-color:#fff;
+            margin:0px;
+            position:relative;
+        }
+        .descriptionComicsButton{
+            text-align:right;
+        }
+        #closeImageComics{
+            cursor:pointer;
+        }
+        .HowUseOBOBtn{
+            background-color: rgba(150,150,150,0.5);
+            color:white;;
+            font-size:16px;
+        }
+        .logoThemeFont{
+            margin-bottom:0px;
+            color:white;
+            font-weight:normal;
+        }
+        .logoDistance{
+            z-index:200;
+            margin-top:50px;
+        }
+        .bigLogoFont{
+            font-size:55px;
+            margin-bottom:-30px;
+        }
+        .smallLogoFont{
+            font-size:40px;
+        }

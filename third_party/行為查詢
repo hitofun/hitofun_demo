@@ -1,0 +1,27 @@
+SELECT 
+	o.*,
+	(SELECT	
+		concat(ifnull(`location_view`.`locationCountryName`,''),ifnull(`location_view`.`locationStateName`,''),ifnull(`location_view`.`locationCityName`,''),ifnull(`location_view`.`locationAreaName`,''))
+    FROM 
+		order_inquire_hotel LEFT JOIN hotel ON(order_inquire_hotel.hotelId = hotel.hotelId) LEFT JOIN location_view ON(hotel.hotelAreaId = location_view.locationAreaId)
+	WHERE
+		order_inquire_hotel.orderId = o.orderId 
+	LIMIT 
+		1
+    ) AS location,
+	(SELECT	
+		MIN(hotel.hotelReferanceOBO)
+    FROM 
+		order_inquire_hotel LEFT JOIN hotel ON(order_inquire_hotel.hotelId = hotel.hotelId)
+	WHERE
+		order_inquire_hotel.orderId = o.orderId
+    ) AS minPrice,
+	(SELECT	
+		MAX(hotel.hotelReferanceOBO)
+    FROM 
+		order_inquire_hotel LEFT JOIN hotel ON(order_inquire_hotel.hotelId = hotel.hotelId)
+	WHERE
+		order_inquire_hotel.orderId = o.orderId
+    ) AS maxPrice
+FROM
+	`order` AS o

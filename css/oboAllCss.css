@@ -1,0 +1,48 @@
+	.buttonCircle10 {
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+	.buttonCircle {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	.intro {
+		background:#fafafa;
+		color:black;
+	}	
+	.checkListTrRed th {
+		color:#F00;
+	}
+	.checkListTrRed td {
+		color:#F00;
+	}
+	@media (min-width: 768px) {
+		.StamentFontLeftTop80 {
+			margin-top:100px;
+		}
+	}
+	@media (max-width: 767px) {
+		.StamentFontLeftTop80 {
+			margin-top:-30px;
+		}
+	}
+	.StamentFontLeftTop80 {
+		text-align: left;
+	}
+	.bottomP0 {
+		margin-bottom:0px;
+	}
+	footer {
+		padding-top: 10px;	
+		padding-bottom: 10px;
+	}
+	a {
+	    color: #337ab7;
+	    text-decoration: none;
+	}
+	a:hover, a:focus {
+	    color: #23527c;
+	    text-decoration: underline;
+	}
